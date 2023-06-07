@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Xanh+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sub-header {
+    width: 100vw;
+    height: 46px;
+    background-color: rgb(76, 182, 201);
+    color: rgb(37, 97, 208);
+}
+
+.left-icon {
+    display: inline-block;
+    width: 800px;
+    margin-left: 50px;
+}
+
+.left-icon li {
+
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding: 0 3px 0 3px;
+    display: inline-block;
+    margin: 12px 16px 0px 4px;
+    font-size: 20px;
+}
+
+.left-icon li:hover {
+    cursor: pointer;
+}
+
+ion-icon {
+    margin: 0 10px 0 4px;
+}
+
+.right-icons {
+    float: right;
+    width: 400px;
+}
+
+.right-icons li {
+    display: inline-block;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding: 0 6px 0 6px;
+
+    margin: 13px 0px 0 -6px;
+    font-size: 100%;
+}
+
+.right-icons li:hover {
+    cursor: pointer;
+}
+
+.main {
+    position: relative;
+}
+
+.main img {
+    width: 100vw;
+}
+
+.text {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.navbar {
+    position: absolute;
+    height: 48px;
+    top: 16px;
+    right: -75px;
+    width: 100%;
+    margin-right: 76px;
+}
+
+.navbar p {
+    font-family: 'Libre Baskerville', serif;
+    display: inline-block;
+    font-size: 35px;
+    color: white;
+}
+
+.navlist {
+    font-family: 'Xanh Mono', monospace;
+    float: right;
+    margin: 0 120px;
+}
+
+.navlist li {
+    display: inline-block;
+    padding: 0 22px;
+    margin-top: 14px;
+    font-size: 20px;
+}
+
+.navlist li a {
+    color: rgb(136, 180, 81);
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.navlist li a:hover {
+    text-decoration: 3px underline rgb(145, 145, 201);
+    color: rgb(35, 166, 21);
+}
+
+.text-content h4 {
+    position: absolute;
+    top: 120px;
+    left: 110px;
+    color: rgb(17, 212, 183);
+    text-transform: uppercase;
+}
+
+.text-content h1 {
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+
+.text-content p {
+    line-height: 30px;
+    position: absolute;
+    top: 280px;
+    left: 110px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.text-content a {
+    text-decoration: none;
+}
+
+.filled-button {
+    position: absolute;
+    top: 400px;
+    left: 110px;
+    background-color: rgb(221, 238, 25);
+    height: 32px;
+    width: 110px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.text2 h2 {
+    display: inline-block;
+    margin-left: 160px;
+}
+
+.text2 span {
+    margin-left: 160px;
+}
+
+.text2 {
+    width: 100%;
+    height: 95px;
+    background-color: rgb(39, 46, 188);
+    color: blanchedalmond;
+    display: inline-block;
+    position: absolute;
+    padding-top: 18px;
+    top: 658px;
+}
+
+.text2 a {
+    float: right;
+    height: 32px;
+    width: 110px;
+    background-color: rgb(221, 238, 25);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 8px;
+    text-decoration: none;
+    margin: 0 150px 0 0;
+    position: absolute;
+    left: 946px;
+    top: 50px;
+}
+
+.span {
+    position: absolute;
+    height: 100px;
+    top: 915px;
+    width: 100vw;
+}
+
+#span1,
+#span2 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+#span1 {
+    margin-left: 470px;
+}
+
+#span2 {
+    padding-left: 20px;
+    color: rgb(53, 53, 190);
+}
+
+.span span {
+    margin-left: 450px;
+    color: rgb(85, 84, 84);
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+.table {
+    position: absolute;
+    top: 1100px;
+    left: 85px;
+}
+
+.table td {
+    background-color: rgb(233, 225, 225);
+    padding-right: 15px;
+    color: rgb(195, 132, 50);
+}
+
+.table h2 {
+    margin: 25px 0 30px 17px;
+}
+
+.table pre {
+    line-height: 20px;
+    margin: 25px 0 30px 17px;
+}
+
+.table a {
+    display: inline-block;
+    margin: 25px 0 30px 90px;
+    background-color: rgb(221, 238, 25);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 8px;
+    text-decoration: none;
+    height: 32px;
+    width: 100px;
+}
+
+.text3 {
+    position: relative;
+    height: 500px;
+    background-color: rgb(35, 28, 28);
+    top: 894px;
+    color: aliceblue;
+}
+
+.p31 {
+    margin-left: 100px;
+    font-size: 23px;
+    padding: 100px 0 30px 0;
+}
+
+.sp31,
+.sp32 {
+    margin-left: 100px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.sp32 {
+    color: aqua;
+}
+
+.pre31 {
+    display: inline-block;
+    margin-left: 36px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.text3 div {
+    background-color: rgb(188, 161, 161);
+    height: 80px;
+    width: 120px;
+    float: right;
+    padding-left: 10px;
+    font-weight: bolder;
+    color: brown;
+}
+
+.d31 {
+    margin: 0 135px 10px 0;
+    align-items: center;
+}
+
+.d32 {
+    margin: 0 58px 0px 0px;
+}
+
+.d33 {
+    margin: -56px 135px 10px 0;
+}
+
+.d34 {
+    margin: -56px 58px 10px 0;
+}
+
+.d31 p {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.d32 p {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.d33 p {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.d34 p {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.imgtext img {
+    display: inline-block;
+}
+
+.imgtext {
+    position: relative;
+    width: 100vw;
+    position: absolute;
+    top: 2300px;
+}
+
+.img1 {
+    position: absolute;
+    top: 40px;
+    left: 700px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6 {
+    display: inline-block;
+}
+
+.img2 {
+    font-weight: bolder;
+    position: absolute;
+    font-size: 50px;
+    top: 70px;
+    left: 700px;
+}
+
+.img3 {
+    font-weight: bolder;
+    position: absolute;
+    font-size: 50px;
+    top: 110px;
+    left: 700px;
+    color: aqua;
+}
+
+.img4 {
+    font-weight: bolder;
+    position: absolute;
+    font-size: 50px;
+    top: 110px;
+    left: 780px;
+    color: aqua;
+}
+
+.img5 {
+    position: absolute;
+    font-size: 15px;
+    top: 180px;
+    left: 680px;
+    color: rgba(100, 134, 147, 0.932);
+    line-height: 30px;
+}
+
+.img6 {
+    position: absolute;
+    margin: 25px 0 30px 90px;
+    background-color: rgb(221, 238, 25);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 8px;
+    text-decoration: none;
+    height: 32px;
+    width: 200px;
+    top: 400px;
+    left: 800px;
+}
+
+.table4 {
+    position: relative;
+    top: 1900px;
+}
+
+.table41 {
+    display: flex;
+    justify-content: center;
+    color: rgb(92, 229, 23);
+}
+
+.table42 {
+    display: flex;
+    justify-content: center;
+    margin: 12px 0 20px 0;
+}
+
+.table43 {
+    background-color: rgb(198, 164, 164);
+    display: flex;
+    justify-content: center;
+    margin: 25px 45px 25px 45px;
+}
+
+.table44 {
+    border: 3px dotted brown;
+}
+
+.table44 h2 {
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+    padding-top: 25px;
+}
+
+.table44 span {
+    color: rgb(16, 78, 78);
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+    padding: 5px 0 20px 0;
+}
+
+.table44 pre {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 10px 5px 35px 5px;
+}
+
+.input4 {
+    
+    position: absolute;
+    height: 800px;
+    width: 100vw;
+    top: 3700px;
+}
+
+.input41 {
+    display: flex;
+    justify-content: center;
+    color: rgb(42, 67, 208);
+    font-size: 40px;
+    margin: 20px;
+}
+
+.input42 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin: 20px;
+}
+.form1{
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(67, 119, 156);
+}
+.input43 {
+    padding: 15px 15px 15px 15px;
+    border-radius: 15px;
+    margin: 39px 25px 40px 80px;
+    width: 200px;
+  }
+  .input44 {
+    padding: 15px 15px 15px 15px;
+    border-radius: 15px;
+    margin: 39px 25px 40px 25px;
+    width: 200px;
+  }
+  .input45 {
+    padding: 15px 15px 15px 15px;
+    border-radius: 15px;
+    margin: 39px 25px 40px 25px;
+    width: 200px;
+  }
+  .input46 {
+    padding: 15px 15px 15px 15px;
+    border-radius: 15px;
+    margin: 39px 25px 40px 66px;
+    width: 800px;
+    height: 100px;
+  }
+  .input47 {
+    display: flex;
+    justify-content: center;
+    margin: 36px 0 0px 388px;
+    background-color: rgb(221, 238, 25);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 8px;
+    text-decoration: none;
+    height: 36px;
+    width: 201px;
+  }
+  .logo {
+    position: absolute;
+    top: 4400px;
+    display: inline-block;
+  }
+  .logo img {
+    padding: 0 18px 50px 96px;
+    margin: 21px 14px;
+  }
+  .subfooter{
+    position: absolute;
+    top: 4600px;
+    background-color: rgb(19, 15, 15);
+    width: 100vw;
+    height: 600px;
+    color:white ;
+  }
+  .table5 {
+    width:1150px ;
+    margin: auto;
+  }
+  .table5 td{
+    width: 300px;
+  }
+  .social-icons1 li{
+    display: inline-block;
+  }
+  .table51 {
+    margin: -107px 0 27px -18px;
+    font-size: 30px;
+  }
+  .td51{
+    padding:0 20px 0 0 ;
+  }
+.td51 pre {
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .td53{
+    padding: 0 30px 0 0;
+  }
+  .table52 {
+    margin: -107px 0 27px -18px;
+    font-size: 30px;
+  }
+  .menu-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .table53 {
+    margin: -107px 0 27px -18px;
+    font-size: 30px;
+  }
+  .menu-list a:hover{
+    color: blue;
+  }
+  .table54 {
+    margin: 72px 0 23px -16px;
+    font-size: 30px;
+  }
+  #name,#email,#message{
+    border-radius: 15px;
+    background-color: rgb(248, 233, 233);
+    padding: 10px 0 15px 10px;
+    width: 200px;
+    margin: 15px 0 15px 0;
+  }
+  .filled-button1{
+    display: inline-block;
+    background-color: rgb(221, 238, 25);
+    height: 32px;
+    width: 110px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .footer{
+    position: absolute;
+    top: 5150px;
+    height: 150px;
+    width: 100vw;
+    background-color: rgb(71, 68, 68);
+    color: white;
+  }
+  .footer p{
+    display: flex;
+    justify-content: center;
+   font-weight: bold;
+   line-height: 33px;
+}
+.footerp1{
+      margin-top: 46px;
+
+  }
